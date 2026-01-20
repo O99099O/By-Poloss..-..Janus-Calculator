@@ -1,0 +1,24 @@
+procedure calculator(a, b, result)
+{
+    result += a;
+    result += b;
+
+    if result > 100 then
+        result -= 10;
+    else
+        result += 10;
+    fi result > 100
+
+    result -= 5;
+    result += 2;
+
+    if a > b then
+        result += a;
+        result -= b;
+    else
+        result += b;
+        result -= a;
+    fi a > b
+
+    result -= 7;
+}
